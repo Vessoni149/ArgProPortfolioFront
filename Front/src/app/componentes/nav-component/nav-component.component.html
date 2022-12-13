@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-sm navbar-dark ">
+    <div class="container-fluid">
+      <img src="assets/APLogo-20-20.png" alt="Argentina Programa" width="120"  class="img-fluid">
+   
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto ul1">
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link" style="cursor: pointer" class="log" (click)="login()" *ngIf="!isLogged">Log In</a>
+            <a class="nav-link" style="cursor: pointer" class="log" (click)="onLogOut()" *ngIf="isLogged">Log Out</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" routerLink="About me" >About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+          </li>
+        </ul>
+
+        <hr class="d-md-none text-white-50">
+
+        <ul class="navbar-nav  flex-row flex-wrap text-light">
+          <li class="nav-item col-6 col-sm-auto p-3">
+          <a href="https://github.com/Vessoni149" class="fab fa-github text-light fs-2"></a>
+          <small class="d-sm-none ms-2"><a href="https://github.com/Vessoni149" class="text-light">Github</a></small>
+        </li>
+        <li class="nav-item col-6 col-sm-auto p-3">
+          <a href="https://www.instagram.com/agustinvessoni/" class="fab fa-instagram text-light fs-2"></a>
+          <small class="d-sm-none ms-2"><a href="https://www.instagram.com/agustinvessoni/" class="text-light">Instagram</a></small>
+        </li>
+        <li class="nav-item col-6 col-sm-auto p-3">
+          <a href="https://www.facebook.com/agustin.vessoni" class="fab fa-facebook text-light fs-2"></a>
+          <small class="d-sm-none ms-2"><a href="https://www.facebook.com/agustin.vessoni" class="text-light">Facebook</a></small>
+        </li>
+        <li class="nav-item col-6 col-sm-auto p-3">
+          <a href="https://www.linkedin.com/in/agustin-vessoni-374128234/" class="fab fa-linkedin text-light fs-2"></a>
+          <small class="d-sm-none ms-2"><a href="" class="text-light">LinkedIn</a></small>
+        </li>
+      </ul>
+      
+      </div>
+  </div>  
+</nav>

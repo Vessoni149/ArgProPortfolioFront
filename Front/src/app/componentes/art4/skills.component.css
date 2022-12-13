@@ -1,0 +1,156 @@
+.circle{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    margin: auto;
+    background: linear-gradient(0deg ,rgb(223, 182, 0) 50%,rgb(163, 66, 60) 50%);
+    position: relative;
+    transform: rotate(90deg);  /* borrar despues*/
+} 
+
+.circle::before{
+    
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(240, 210, 144) content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    line-height: 7.5rem;
+    transform: rotate(-90deg);
+}
+.circle::after{
+    
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: linear-gradient(transparent 50%, rgb(240, 210, 144) 50%);
+    transform: scale(1.1) rotate(-90deg); /* borrar*/
+    text-align: center;
+    color:rgb(0, 0, 0);
+    line-height: 13rem;
+}
+
+.c1{
+    transform: rotate(126deg);
+}
+.c1::before{
+    content: "HTML5";
+    transform:rotate(-126deg);;
+}
+.c1::after{
+    content: "70%";
+    transform:scale(1.1) rotate(-126deg);;
+}
+
+.c2{
+    transform: rotate(126deg);
+}
+.c2::before{
+    content: "CSS";
+    transform:rotate(-126deg);;
+}
+.c2::after{
+    content: "70%";
+    transform:scale(1.1) rotate(-126deg);;
+}
+
+.c3{
+    transform: rotate(135deg);
+}
+.c3::before{
+    content: "Javascript";
+    transform:rotate(-135deg);;
+}
+.c3::after{
+    content: "75%";
+    transform:scale(1.1) rotate(-135deg);;
+}
+
+.c4{
+    transform: rotate(72deg);
+}
+.c4::before{
+    content: "Boostrap";
+    transform:rotate(-72deg);;
+}
+.c4::after{
+    content: "40%";
+    transform:scale(1.1) rotate(-72deg);;
+}
+
+.c5{
+    transform: rotate(90deg);
+}
+.c5::before{
+    content: "TypeScript";
+    transform:rotate(-90deg);;
+}
+.c5::after{
+    content: "50%";
+    transform:scale(1.1) rotate(-90deg);;
+}
+
+.c6{
+    transform: rotate(117deg);
+}
+.c6::before{
+    content: "Angular";
+    transform:rotate(-117deg);;
+}
+.c6::after{
+    content: "65%";
+    transform:scale(1.1) rotate(-117deg);;
+}
+
+.c7{
+    transform: rotate(135deg);
+}
+.c7::before{
+    content: "React";
+    transform:rotate(-135deg);
+}
+.c7::after{
+    content: "75%";
+    transform:scale(1.1) rotate(-135deg);
+}
+
+.c8{
+    transform: rotate(72deg);
+}
+.c8::before{
+    content: "MySql";
+    transform:rotate(-72deg);
+}
+.c8::after{
+    content: "40%";
+    transform:scale(1.1) rotate(-72deg);
+}
+
+.c9{
+    transform: rotate(63deg);
+}
+.c9::before{
+    content: "Java";
+    transform:rotate(-63deg);
+}
+.c9::after{
+    content: "35%";
+    transform:scale(1.1) rotate(-63deg);
+}
+
+.span-color{
+    background-color: rgb(77, 3, 33);
+    border-radius: 5em;
+    width: 4em;
+}
+

@@ -1,0 +1,34 @@
+<article class="row ms-2 mt-5">
+    <h2 class="ps-2">Experiencia laboral</h2>
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+            Nueva Experiencia
+        </button>
+    </div>
+
+    <div class="col lg 1"></div>
+    <div class="col-lg-11">
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let ExpLaboral of expLaboral">
+                    <td>
+                        <h3 class="fw-semibold">{{ExpLaboral.nombreE}}</h3>
+                    </td>
+                    <td>
+                        <h3 class="fw-light">{{ExpLaboral.descripcionE}}</h3>
+                    </td>
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-light" routerLink="/editexp/{{ExpLaboral.id}}">
+                            <i class="bi bi-pencil"></i> EDITAR</button>
+                    </td>
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-danger" (click)="delete(ExpLaboral.id)">
+                            <i class="bi bi-trash"></i> BORRAR</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</article>
+<hr class="border border-5 border-danger rounded-pill">

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.img-container{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border-radius: 10px;
+}
+
+
+img{
+    width: 100%;
+    vertical-align: top;
+    height: 100%;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+    transition: all 500ms ease;
+   
+}
+
+.img-container:hover{
+    transform: scale(1.5);
+    transform: rotate(360deg);
+}
+
+
+img:hover{
+    transform:  scale(1.5);
+    object-fit: contain;
+    
+}
+
+@media screen and (max-width: 698px) {
+    .img-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+    }
+}

@@ -1,0 +1,17 @@
+<div class="container col-md-6 mt-5">
+<h1 style="color: #000 ">Inicio de sesión</h1>
+<h5>(Iniciar sesión permitirá crear, modificar y eliminar experiencias laborales y elementos de educación en la Home).</h5>
+    <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+        <div class="mb-3">
+            <label for="nombreUsuario" class="form-label fw-bold">User</label>
+            <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control" [(ngModel)]="nombreUsuario" required="required">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label fw-bold">Password</label>
+            <input type="password" id="password" [(ngModel)]="password" class="form-control"  name="password" required="required">
+          </div>
+          <button type="submit"  class="btn btn-primary">Login</button>
+    </form>
+
+</div>
+

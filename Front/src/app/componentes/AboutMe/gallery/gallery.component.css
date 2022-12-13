@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 2em;
+    padding: 1em;
+    overflow: hidden;
+}
+h2{
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-right: 2em;
+}

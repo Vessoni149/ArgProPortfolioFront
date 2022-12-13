@@ -1,0 +1,17 @@
+nav{
+    background-color: rgb(120, 29, 66);
+}
+
+#menu-div{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.ul1{
+    margin-left: 1.5em;
+}

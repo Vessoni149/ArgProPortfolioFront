@@ -1,0 +1,15 @@
+.card-bg{
+    background-color: rgb(255, 236, 239);
+}
+
+h2{
+    margin-left: 1em;
+}
+h5{
+    text-align: center;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-left: 2em;
+}

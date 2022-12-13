@@ -1,0 +1,78 @@
+
+.divp{
+    height: 70vh; 
+    width: 100%;
+    background-color: black;
+    background-image: url(../../../assets/Certificados/calden.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1em;
+}
+.divp h1{
+    color: #000;
+    padding-top: 5vh;
+    font-size: 6em;
+}
+.div-relleno{
+    width: 100%;
+    background-color: black;
+}
+
+.p-proyectos{
+    padding-left: 1em;
+    padding-right: 1em;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.lista-proyectos{
+    text-align: center;
+    padding: 3em;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+
+@media screen and (min-width: 1000px){
+    .divp{
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 600px){
+   .divp{
+    height: 100vh;
+   }
+   .divp h1{
+    font-size: 4em;
+   }
+   .p-proyectos{
+    margin-top: 22em;
+   }
+   .lista-proyectos{
+    padding-top: 6em;
+   }
+   .div-relleno{
+    height: 20em;
+   }
+}
+
+@media screen and (max-width: 380px){
+   
+    .lista-proyectos{
+        padding-top: 10em;
+    }
+    .divp h1{
+        padding-top: 2em;
+       }
+}
+
