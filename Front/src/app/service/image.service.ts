@@ -14,7 +14,7 @@ export class ImageService {
     new Image ('7', 'primera imagen', 'descripcion', '../../../../../assets/Certificados/pensamientoLogicoLenguajes.jpg', '../../../../../assets/Certificados/pensamientoLogicoLenguajes.jpg'),
     new Image ('8', 'primera imagen', 'descripcion', '../../../../../assets/Certificados/preworkWindows.jpg', '../../../../../assets/Certificados/preworkWindows.jpg'),
     new Image ('9', 'primera imagen', 'descripcion', '../../../../../assets/Certificados/programacionBasica.jpg', '../../../../../assets/Certificados/programacionBasica.jpg'),
-    new Image ('10', 'primera imagen', 'descripcion', '../../../../../assets/Certificados/programacionBasica.jpg', '../../../../../assets/Certificados/git&github.jpg')
+    new Image ('10', 'primera imagen', 'descripcion', '../../../../../assets/Certificados/git&github.jpg', '../../../../../assets/Certificados/git&github.jpg')
   ]
   constructor() { }
     getImages(){
